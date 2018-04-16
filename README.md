@@ -1,2 +1,2 @@
-# RPS-Game
-Rock, Paper and Scissors using code
+# MTAG
+Mini. Text. Adventure. Game.
