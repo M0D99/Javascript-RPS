@@ -117,6 +117,12 @@ var SkeletonKey = 0
 var Run = 0
 function Inv() {
 var text=" "
+/*
+var bountiesName = ["John the bad","Baby Oni","Uglaaa Cameron","Nygel Cooper","Irvine","Tyler","Ibrahim the defiled","Patrick the Graphic Blender","The Weeb","Fleece Johnson"," Noir Knight","Jiren the gray"]
+var specialBounty = Touri
+var bountyYen = [1,5000,10000,75000,10000,15000,200000,500000,1000000,5000000,10000000000,15000000000,5000000000000000]
+var specialPayment = -500000000000
+*/
 for (i=0 ; i < inventory.length; i++) {
  text += i + 1 + ": " + inventory[i] + "<br>" + "<br>" ;
 document.getElementById("inventory").innerHTML = text //displays inventory
@@ -145,12 +151,14 @@ MaxHP = 40 //resets Max HP
 firstad = 5//the number of first-aid kits the player has
 yen = 5000//the amount of bullets the player has
 document.getElementById("HP&Bullets").innerHTML = "Hp: "+ HP +"/"+ MaxHP +" || Yen: ¥" + yen;//displays heath and bulets
-inventory = ["Laser 22. Pistol","Laser Butter Knife"]
+inventory = ["Fists","Laser 22. Pistol","Laser Butter Knife"]
 Inv();
 document.getElementById("name").innerHTML = "Welcome " + name + Title;}//wecomes the player on the page
 
 //MAIN Program
 //=============
+	
+
 Restart()
 
 </script>
