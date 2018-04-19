@@ -65,10 +65,10 @@ p {
 
 
 <h2>
-<button class="button button1" onclick="_()">Find A Bounty</button>
+<button class="button button1" onclick="BountyBoard()">Find A Bounty</button>
 <BR>
 <button class="button button1" onclick="_()">Restart</button>
-<button class="button button1" onclick="_()">Hunt</button>
+<button class="button button1" onclick="Hunt()">Hunt</button>
 </h2>
 <h2>
 <button class="button button1" onclick="_()">_</button>
@@ -95,10 +95,6 @@ p {
 Pistol
 </h3>
 
-<script src="_"></script>
-<script src="_"></script>
-<script src="_"></script>
-<script src="_"></script>
 <script>
 //Verables
 //==========
@@ -115,6 +111,10 @@ var value = ["none"]
 var firstad = 0
 var SkeletonKey = 0
 var Run = 0
+var Bounty;
+var BountyPrice;
+var BountyHP;
+var BountyDMG;
 function Inv() {
 var text=" "
 for (i=0 ; i < inventory.length; i++) {
@@ -154,6 +154,6 @@ document.getElementById("name").innerHTML = "Welcome " + name + Title;}//wecomes
 Restart()
 
 </script>
-
+<script src="BountyBoard.js"></script>
 </body>
 </html>
